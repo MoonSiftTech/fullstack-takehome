@@ -1,0 +1,36 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`AddCircleIcon > renders correctly 1`] = `
+<div>
+  <svg
+    data-testid="add-circle-icon"
+    fill="none"
+    height="24"
+    stroke="currentColor"
+    viewBox="0 0 24 24"
+    width="24"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <circle
+      cx="12"
+      cy="12"
+      r="10"
+      stroke-width="1"
+    />
+    <line
+      stroke-width="1"
+      x1="12"
+      x2="12"
+      y1="8"
+      y2="16"
+    />
+    <line
+      stroke-width="1"
+      x1="8"
+      x2="16"
+      y1="12"
+      y2="12"
+    />
+  </svg>
+</div>
+`;
