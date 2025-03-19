@@ -1,6 +1,6 @@
 # <img src="./public/logo.svg" width="32" height="32" /> &nbsp;Moonsift Fullstack Takehome Challenge
 
-👋 Thank you for your interest in working together. This is meant to be short and hopefully fun exercise to give us a sense of your work and to help you understand what sort of things we might work on together.
+👋 Thank you for your interest in working together. This is meant to be a short and hopefully fun exercise to give us a sense of your work and to help you understand what sort of things we might be doing together.
 
 Please let us know if you have any feedback, we are always happy to improve our process.
 
