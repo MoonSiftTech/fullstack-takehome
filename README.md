@@ -17,7 +17,8 @@ The Moonsift take home assignment consists of a simple React application with a 
 
 - 🤔 We use this challenge to better understand your way of thinking and how you approach a problem. Be sure to document your choices (code comments, README, at the live discussion etc.)
 - ⌛ Please do not spend too much time on this. It is meant to be a starting point for a discussion. Ideally we think it can be done in ~4 hours.
-- 💻 We are not looking for a specific technology or solution. We want to see how you think and justify design decisions. Please feel free to bring in new dependencies, package the final product as you see fit and generally choose technologies that you think are best. (as long as the front-end remains a React + Typescript project)
+- 💻 We are not looking for a specific technology or solution. We want to see how you think and justify design decisions. Please feel free to bring in new dependencies and generally choose technologies that you think are best. (as long as the front-end remains a React + Typescript project)
+- 🤖 You can use AI tools to help you with the challenge, but please walk us through how you used them and how you made sure the product was up to standard.
 - ✍️ Once you're done, replace this README with your notes. Also include instructions on running your final product.
 - 📬 Please submit your final solution in the form of a GitHub repository and add `badrequest400` and `moonsift` as collaborators so we may view and clone your solution.
 - 📅 Please try to get this back to us in 5 days, but do let us know if you need more time.
@@ -25,22 +26,27 @@ The Moonsift take home assignment consists of a simple React application with a 
 
 ## 🚀 Challenge
 
-Aside from the below new feature, this repository is in a bit of a state. This is also a refactoring and cleanup exercise. We would like to see your approach to refactoring just as much as your solution for the additions. Your attention to detail and ability to quickly cut through the noise is key.
+Aside from the below new features, **this is also a refactoring and cleanup exercise.** We would like to see your approach to refactoring just as much as your solution for the additions. Your attention to detail and ability to quickly cut through the noise is key.
+You should **not** have time to make this production ready or perfect. You will need to prioritise aggressively and keep your refactoring to the most important areas. Make notes on what else you would do given more time.
 
 We will review your solution and discuss the choices you have made together in the review meeting. Please make brief notes of your choices and the reasoning behind them.
 - What assumptions did you make?
 - What did you choose to spend time on? What did you consider less important, decide to cut from scope or cut corners on?
 - What would you have done differently or what else would you have done if you had more time?
 
-> [!IMPORTANT]
-> **Everything** in this repository is fair game to change. Don't be afraid to delete/modify/add/rename as long as the app is runnable and satisfies the brief. Please have a think about how you could improve the codebase. Think about bringing it up to a standard that you would be happy to ship and find 3 months down the line when a new feature comes in.
+> [!NOTE]
+> **Everything** in this repository is fair game to change. Don't be afraid to delete/modify/add/rename as long as the app is runnable and satisfies the brief. How could you improve the codebase? **We are not looking for you to submit a fully perfected codebase**, but please think about and document bringing the repository up to a standard that you would be happy with.
+
+> [!TIP]
+> Hint: Look at doing some refactoring first and simplify the component hierarchy. Focus on the new additions after. This should make your work easier.
 
 ### 🖼️ Front-end
 
 Add a new feature to the product tiles to allow people to add notes to a saved product (see wireframes below, pixel perfect is not the aim here).
 
-> [!NOTE]
+> [!IMPORTANT]
 > Many of the buttons do nothing and are only placeholders. This is fine. We do not expect you to address any functionality aside what is described below.
+> Also you can safely disregard the framework folders (`ui` and `common`). Only concentrate on refactoring the main presentational components in `src/components` root.
 
 1. Add a new icon at the bottom of the product tiles to allow people to add or edit notes
 2. Implement a modal that is displayed when the notes icon is clicked and allows the user to add a note or edit their existing note
