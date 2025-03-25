@@ -1,7 +1,7 @@
 {
   "name": "moonsift-fullstack-takehome",
   "private": true,
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Moonsift Fullstack Takehome Challenge",
   "type": "module",
   "scripts": {
